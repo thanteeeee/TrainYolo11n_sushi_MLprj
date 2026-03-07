@@ -23,7 +23,7 @@ st.markdown("Upload a video and run the trained YOLO model to detect sushi types
 # -------------------------
 @st.cache_resource
 def load_model():
-    model = YOLO("runs/detect/train8/weights/best.pt")
+    model = YOLO("runs/detect/train9/weights/best.pt", device='0')
     return model
 
 model = load_model()
