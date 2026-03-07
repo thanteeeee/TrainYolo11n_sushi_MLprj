@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['janback', 'jangold', 'janred', 'janwhite']
+
+roboflow:
+  workspace: object-detection-eq2qq
+  project: sushi-jan-see
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-eq2qq/sushi-jan-see/dataset/7
