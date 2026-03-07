@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Janback', 'Jangold', 'Janred', 'Janwhite']
+
+roboflow:
+  workspace: object-detection-eq2qq
+  project: sushi-pdsnv
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-eq2qq/sushi-pdsnv/dataset/6
